@@ -12,6 +12,8 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-select-async-paginate": "^0.7.9",
+    "three": "^0.175.0",
+    "vanta": "^0.5.24",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

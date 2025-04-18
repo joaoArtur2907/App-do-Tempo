@@ -12,12 +12,16 @@
 
 .weather {
   width: 300px;
-  border-radius: 6px;
-  box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
   color: #fff;
-  background-color: #333;
   margin: 20px auto 0 auto;
   padding: 0 20px 20px 20px;
+
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .top,
@@ -75,3 +79,7 @@
   font-weight: 600;
   font-size: 12px;
 }
+
+/* test {
+  background-color: #121313;
+} */

@@ -37,6 +37,39 @@ const Search = ({ onSearchChange }) => {
       value={search}
       onChange={handleOnChange}
       loadOptions={loadOptions}
+      styles={{
+        control: (baseStyles) => ({
+          ...baseStyles,
+          backgroundColor: "rgba(255, 255, 255, 0.2)",
+          color: "white",
+          borderColor: "white",
+        }),
+        placeholder: (baseStyles) => ({
+          ...baseStyles,
+          color: "white",
+        }),
+        singleValue: (baseStyles) => ({
+          ...baseStyles,
+          color: "white",
+        }),
+        input: (baseStyles) => ({
+          ...baseStyles,
+          color: "white",
+        }),
+        option: (baseStyles, { isFocused, isSelected }) => ({
+          ...baseStyles,
+          backgroundColor: isSelected
+            ? "#65a6fc"
+            : isFocused
+            ? "#65a6fc" // cor ao passar o mouse
+            : "white",
+          color: isSelected || isFocused ? "white" : "black",
+        }),
+        menu: (baseStyles) => ({
+          ...baseStyles,
+          zIndex: 9999,
+        }),
+      }}
     />
   );
 };
