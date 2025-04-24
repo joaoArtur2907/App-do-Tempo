@@ -1,7 +1,7 @@
 .title {
   font-size: 23px;
   font-weight: 700;
-  color: #6d56de;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 0 2px rgba(255, 255, 255, 0.5);
 }
 
 .dailyItem {
@@ -38,6 +38,7 @@
   flex: 1 1;
   margin-right: 15px;
   text-align: right;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 0 2px rgba(255, 255, 255, 0.5);
 }
 
 .minMax {
